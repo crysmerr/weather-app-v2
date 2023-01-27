@@ -33,6 +33,7 @@ a {
 
 a:hover {
   text-decoration: none;
+  color: #ff00e6;
 }
 .btn {
   background-color: #00abb3;
@@ -55,7 +56,8 @@ li:first-letter {
 
 .weather-app {
   padding: 50px 30px 10px;
-  background-color: #fff;
+  background: rgba(255, 255, 255, 0.4);
+
   border: 1px solid #dadde1;
   border-radius: 5px;
 }
