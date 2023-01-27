@@ -5,7 +5,7 @@ body {
 
 h1 {
   color: #ff00e6;
-  font-size: 32px;
+  font-size: 43px;
   font-weight: 400;
   line-height: 40px;
   margin-bottom: 0;
@@ -22,9 +22,17 @@ li {
   padding: 0;
 
   color: #00abb3;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 100;
-  line-height: 19px;
+  line-height: 24px;
+}
+a {
+  color: #00abb3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
 }
 .btn {
   background-color: #00abb3;
@@ -46,7 +54,7 @@ li:first-letter {
 }
 
 .weather-app {
-  padding: 50px;
+  padding: 50px 30px 10px;
   background-color: #fff;
   border: 1px solid #dadde1;
   border-radius: 5px;
@@ -82,4 +90,9 @@ li:first-letter {
 
 .weather-temperature .active:hover {
   text-decoration: none;
+}
+
+.date-update {
+  font-size: 12px;
+  text-align: center;
 }
