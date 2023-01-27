@@ -104,3 +104,7 @@ li:first-letter {
   font-size: 10px;
   line-height: 50px;
 }
+
+.weather-forecast {
+  text-align: center;
+}
