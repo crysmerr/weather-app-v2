@@ -22,6 +22,26 @@ function formatDate(timestamp) {
   return `${day} at ${hours}:${minutes}`;
 }
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+  forecastElement.innerHTML = `
+    <div class="row">
+      <div class="col-2">
+        <div class="weather-forecast-date">THURS</div>
+        <img
+          src="http://openweathermap.org/img/wn/50d@2x.png"
+          alt=""
+          width="42"
+        />
+        <span class="weather-forecast-temp-max">
+          <strong>24°</strong>
+        </span>
+        <span class="weather-forecast-temp-min">/ 2°</span>
+      </div>
+    </div>
+  `;
+}
+
 function displayTemperature(response) {
   let temperatureElement = document.querySelector("#temperature");
   let cityElement = document.querySelector("#city");
@@ -88,3 +108,4 @@ let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", displayCelsiusTemperature);
 
 search("Denver");
+displayForecast();
