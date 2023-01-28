@@ -108,9 +108,7 @@ function handleSubmit(event) {
   search(cityInputElement.value);
 }
 
-let celsiusTemperature = null;
-
 let form = document.querySelector("#search-form");
 form.addEventListener("submit", handleSubmit);
 
-search("Denver");
+search("Telluride");
