@@ -4,6 +4,13 @@ body {
 }
 
 h1 {
+  font-family: "Red Hat Mono", monospace;
+  font-size: 24px;
+  text-align: center;
+  padding-top: 24px;
+}
+
+h2 {
   color: #ff00e6;
   font-size: 43px;
   font-weight: 600;
@@ -38,6 +45,7 @@ a:hover {
 .btn {
   background-color: #00abb3;
   border: 1px solid #00abb3;
+  font-family: "Beth Ellen", cursive;
 }
 
 .btn:hover {
@@ -103,6 +111,7 @@ li:first-letter {
 .code-tag {
   font-size: 10px;
   line-height: 50px;
+  font-family: "Red Hat Mono", monospace;
 }
 
 .weather-forecast {
