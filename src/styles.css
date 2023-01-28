@@ -1,15 +1,10 @@
 body {
   font-family: "Maven Pro", sans-serif;
-  background-size: cover;
-  background: radial-gradient(
-    circle at -2% -25%,
-    rgb(250, 66, 255) 0%,
-    rgba(255, 213, 136, 0.97) 100.7%
-  );
 }
 
 h1 {
   color: #424242;
+  font-family: "Red Hat Mono", monospace;
   font-size: 18px;
   text-align: left;
   padding-bottom: 10px;
@@ -75,14 +70,18 @@ li:first-letter {
 
 .weather-app-wrapper {
   max-width: 600px;
-  margin: 30px auto;
+  margin: 40px auto;
 }
 
 .weather-app {
   padding: 50px 30px 10px;
-  background: rgba(255, 255, 255, 0.6);
+  background: radial-gradient(
+    circle at -2% -25%,
+    rgb(250, 66, 255, 0.67) 0%,
+    rgba(255, 213, 136, 0.67) 100.7%
+  );
   box-shadow: 12px 12px 2px 1px rgba(255, 0, 230, 0.2);
-  border: 1px solid #dadde1;
+  border: 0px;
   border-radius: 5px;
 }
 .weather-block {
@@ -91,7 +90,6 @@ li:first-letter {
   justify-content: center;
   margin: 0 auto;
 }
-
 .overview {
   margin-bottom: 20px;
 }
