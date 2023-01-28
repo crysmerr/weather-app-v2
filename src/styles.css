@@ -1,5 +1,6 @@
 body {
   font-family: "Maven Pro", sans-serif;
+  background-size: cover;
   background: radial-gradient(
     circle at -2% -25%,
     rgb(250, 66, 255) 0%,
@@ -29,7 +30,7 @@ a {
 a:hover {
   color: #ff00e6;
   text-decoration: none;
-  cursor: default;
+  cursor: pointer;
 }
 
 ul {
@@ -48,15 +49,24 @@ li {
   line-height: 24px;
 }
 
-.btn {
-  background-color: #ff00e6;
-  border: 1px solid #ff00e6;
-  font-family: "Red Hat Mono", monospace;
+.f:hover {
+  cursor: default;
 }
 
+.btn {
+  background-color: #ff00e6;
+  border: none;
+  font-family: "Red Hat Mono", monospace;
+}
 .btn:hover {
-  background-color: rgb(0, 0, 0);
-  border: 1px solid rgb(0, 0, 0);
+  color: white;
+  background-color: #000000;
+  border: none;
+}
+
+.btn:active {
+  background-color: transparent;
+  border: none;
 }
 
 li:first-letter {
@@ -116,13 +126,13 @@ li:first-letter {
 }
 
 .date-update {
-  font-size: 12px;
+  font-size: 13px;
   text-align: center;
   color: #ff00e6;
 }
 
 .code-tag {
-  font-size: 10px;
+  font-size: 12px;
   line-height: 50px;
   font-family: "Red Hat Mono", monospace;
 }
