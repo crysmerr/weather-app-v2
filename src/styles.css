@@ -53,6 +53,7 @@ li {
   background-color: #ff00e6;
   border: none;
   font-family: "Red Hat Mono", monospace;
+  max-width: 100px;
 }
 .btn:hover {
   color: white;
